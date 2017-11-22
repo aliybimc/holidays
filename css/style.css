@@ -1,0 +1,103 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'Avenir Next Heavy';
+    src: url('../fonts/AvenirNext-Heavy.eot');
+    src: url('../fonts/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Heavy.woff') format('woff'),
+        url('../fonts/AvenirNext-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/AvenirNext-Bold.eot');
+    src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Bold.woff') format('woff'),
+        url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/AvenirNext-Regular.eot');
+    src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Regular.woff') format('woff'),
+        url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+	background-image: url(../img/YB-Holiday-SnowyBackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  font-family: "Avenir Next Regular", sans-serif;
+  color: rgb(27, 55, 81);
+}
+
+.container-fuild {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.snow-hole {
+	position: relative;
+}
+
+.footer {
+  width: 100%;
+  height: 9.475em;
+  line-height: 2.750em;
+}
+
+.btn-outline-primary {
+	color: #d2232a;
+	border-color: #d2232a;
+}
+
+.btn-outline-primary:hover {
+	background-color: #d2232a;
+	border-color: #d2232a;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary:active {
+	background-color: #d2232a;
+	border-color: #d2232a;
+}
+
+.headline {
+	font-family: 'Avenir Next Heavy';
+	text-transform: uppercase;
+	font-size: 4.4rem;
+	line-height: 3.5rem;
+	margin-top: 0.75em;
+}
+
+.headline-b {
+	font-size: 2.7rem;
+}
+
+.subhead {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+.snow-mug {
+}
+
+.comp {
+	margin-top: -80px;
+}
+
+.main-nav {
+	z-index: 1070;
+}
+
